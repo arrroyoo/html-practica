@@ -1,0 +1,75 @@
+body {
+    width: 1337px;
+    height: 857px;
+    font-family: 'Arial', sans-serif;
+    margin-left: 13%;
+    padding: 0;
+    background-color: #4682b4;
+  }
+  h1, h2, h3 {
+    color: white;
+    text-align: center;
+  }
+  h3 {
+    font-weight: lighter;
+  }
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: 25%;
+    margin-top: 2.4%;
+  }
+  th, td {
+    border: 1px solid #303030;
+    padding: 10px;
+    background-color: white;
+
+  }
+  th {
+    background-color: #4682b4;
+    color: white;
+  }
+  .hora {
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .patio {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .mp04 { text-align: center; color: white; text-shadow: 2px 1.4px 1.5px #303030; font-weight: bolder; background-color: #ff0000; }
+  .mp06 { text-align: center; color: white; text-shadow: 2px 1.4px 1.5px #303030; font-weight: bolder; background-color: #800080; } 
+  .mp07 { text-align: center; color: white; text-shadow: 2px 1.4px 1.5px #303030; font-weight: bolder; background-color: #ffa500; } 
+  .mp08 { text-align: center; color: white; text-shadow: 2px 1.4px 1.5px #303030; font-weight: bolder;  background-color: #90ee90; }
+  .mp10 { text-align: center; color: white; text-shadow: 2px 1.4px 1.5px #303030; font-weight: bolder;  background-color: #0000ff; }
+  .mp12 { text-align: center; color: white; text-shadow: 2px 1.4px 1.5px #303030; font-weight: bolder;  background-color: #ffff00; } 
+  .pati { text-align: center; color: white; text-shadow: 2px 1.4px 1.5px #303030; font-weight: bolder;  background-color: #ffffff; } 
+  .t { text-align: center; color: white; text-shadow: 2px 1.4px 1.5px #303030; font-weight: bolder;  background-color: #696969; }    
+
+
+  tr:last-child td, tr td:last-child {
+    font-weight: lighter;
+  }
+  tr:nth-child(odd) td:not(.hora) {
+    background-color: #f9f9f9;
+  }
+  
+  .titulo-tabla2 {
+    width: 10%;
+  }
+
+  .barra-azul {
+    text-align: left;
+    background-color: #b0c4de;
+  }
+
+  .barra-blanca {
+    text-align: left;
+    background-color: #ffffff;
+  }
+
+  
